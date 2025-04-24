@@ -27,7 +27,7 @@ def merge(left, right):
     return result
 
 def solve(array):
-    threshold = 200  # can tune this value depending on performance
+    threshold = 200  
 
     if len(array) <= threshold:
         # Use insertion sort
